@@ -1,3 +1,4 @@
+#Scolding at any age
 age = 28
 
 if age < 2:
@@ -13,6 +14,6 @@ elif age < 20:
 	print("I know you're a teenager noe, but do not ever miss curfew!")
 
 elif age < 65:
-	print("You're grown now! I don't want to hear excuses")
+	print("You're grown! I don't want to hear excuses")
 elif age >= 65:
 	print('Life must be treating you well')
