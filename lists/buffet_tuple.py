@@ -6,6 +6,6 @@ for value in buffet:
 #buffet[0] = ('chicken')
 #print(buffet)
 print('\nCheck out our new Buffet at the Osas Osais!')
-buffet = ('chicken fried rice', 'butter chicken', 'shawarma', 'pizza',chicken Shawarma, 'mac and cheese')
+buffet = ('chicken fried rice', 'butter chicken', 'shawarma', 'pizza','chicken Shawarma', 'mac and cheese')
 for value in buffet:
 	print(value.title())
