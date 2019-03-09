@@ -8,7 +8,7 @@ active = True
 while active:
 	if age < 3:
 		print("Hey you little toddler your ticket is free!")
-		continue
+		break
 
 	elif age <= 12:
 		print("Hey young one, will you have $10 for the ride? ")
