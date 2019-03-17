@@ -22,4 +22,4 @@ while polling_active:
 
 print("\n---- Poll Results ----\n")
 for name, destination in destinations.items():
-	print(name.title() + " selected " + destination.title() + " as their dream location!" )
+	print(name.title() + " selected " + destination.title() + " as their dream location!")
