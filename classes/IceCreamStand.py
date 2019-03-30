@@ -1,4 +1,5 @@
-#We're creating a restaurant class with a name and cuisine type
+# Creating an ice cream stand that inherits from the 
+# restaurant class
 
 class Restaurant():
 	'''A restaurant with a name and cuisine.'''
@@ -24,18 +25,22 @@ class Restaurant():
 	def increment_number_served(self):
 		self.number_served += 25
 
+class IceCreamStand(Restaurant):
+	''' An ice cream stand inheriting from restaurant'''
+	def __init__(self, name, cusine):
+		''' Initialize from the restaurant class'''
+		super().__init__(name, cusine)
+		self.flavors = ['vanilla','chocolate','coffee',
+				 		'strawberry','mango','cookie dough','cookies and cream']
+
+	def flavour_list(self):
+		print("\nChoose from the following ice cream flavours:")
+		for flavour in self.flavors:
+			print(flavour.title())
 
 
-my_restaurant = Restaurant('scaddabush','italian')
+my_icecream = IceCreamStand('sayi','desert')
+my_icecream.describe_restaurant()
+my_icecream.flavour_list()
 
-my_restaurant.describe_restaurant()
-my_restaurant.open_restaurant()
-  
-restaurant = Restaurant('la grota', 'italian')
-restaurant.served()
-restaurant.number_served = 170
-restaurant.served()
-restaurant.set_number_served(450)
-restaurant.served()
-restaurant.increment_number_served()
-restaurant.served()
+
