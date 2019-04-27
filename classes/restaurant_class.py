@@ -16,7 +16,7 @@ class Restaurant():
 		print("We're now open!")
 
 	def served(self):
-		print("The number of customers served is " + str(self.number_served))
+		print("The number of customers served at " + self.name.title() + " is " + str(self.number_served))	
 
 	def set_number_served(self, now_served):
 		self.number_served = now_served
@@ -25,17 +25,3 @@ class Restaurant():
 		self.number_served += 25
 
 
-
-my_restaurant = Restaurant('scaddabush','italian')
-
-my_restaurant.describe_restaurant()
-my_restaurant.open_restaurant()
-  
-restaurant = Restaurant('la grota', 'italian')
-restaurant.served()
-restaurant.number_served = 170
-restaurant.served()
-restaurant.set_number_served(450)
-restaurant.served()
-restaurant.increment_number_served()
-restaurant.served()

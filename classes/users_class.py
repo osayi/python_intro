@@ -21,7 +21,7 @@ class User():
 	def reset_login_attempts(self):
 		self.login_attempts = 0
 
-
+'''
 new_user = User('osayi', 'okuns')
 new_user.describe_user()
 new_user.greet_user()
@@ -38,3 +38,4 @@ print(logins)
 next_user = User('ivy', 'agbons')
 next_user.describe_user()
 next_user.greet_user()
+'''

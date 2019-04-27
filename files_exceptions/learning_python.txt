@@ -1,0 +1,3 @@
+In python you can create dictionairies
+In python you can create conditional loops
+In python you can make anything a class
