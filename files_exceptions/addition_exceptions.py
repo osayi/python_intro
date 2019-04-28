@@ -16,7 +16,7 @@ while True:
 
 	try:
 		sum = int(first_number) + int(second_number)
-	except TypeError:
+	except ValueError:
 		print("Please make sure you're using integers and not spelling out the number. ")
 	else:
 		print("The sum of those 2 numbers is, " + str(sum) + ".")
