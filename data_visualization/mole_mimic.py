@@ -27,8 +27,18 @@ class RandomWalker():
 			hor_distance = choice([0,1,2,3,4])
 			hor_steps = hor_direction * hor_distance
 
+			if hor_steps == 0 or vert_steps ==0:
+				continue
 
-			'''calculate the next steps
+
+			'''calculate the next steps'''
+
+			next_vert = self.vert_values[-1] + vert_steps
+			next_hor = self.hor_values[-1] + hor_values
+
+
+			self.vert_values.append(next_vert)
+			self.hor_values.append(next_hor)
 
 			
 
